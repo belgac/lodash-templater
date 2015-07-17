@@ -1,0 +1,935 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"model",
+				"modelData"
+			],
+			[
+				"temp",
+				"tempSchemaElementProperty"
+			],
+			[
+				"sche",
+				"schemaElementProperty"
+			],
+			[
+				"schem",
+				"schemaElementProperty"
+			],
+			[
+				"ass",
+				"assetsDestination"
+			],
+			[
+				"men",
+				"menuContainer"
+			],
+			[
+				"run",
+				"runSequence"
+			],
+			[
+				"vendor",
+				"vendorJsStream"
+			],
+			[
+				"bod",
+				"bodyParser"
+			],
+			[
+				"par",
+				"parseInt"
+			],
+			[
+				"untre",
+				"untreatedFiles"
+			],
+			[
+				"untr",
+				"untreatedFiles"
+			],
+			[
+				"import",
+				"importId"
+			],
+			[
+				"agen",
+				"agentlist"
+			],
+			[
+				"agent",
+				"agentgte"
+			],
+			[
+				"commerci",
+				"commercialIndexValue"
+			],
+			[
+				"eleme",
+				"elements"
+			],
+			[
+				"pro",
+				"properties"
+			],
+			[
+				"docD",
+				"docDatePart"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "template/model.js",
+			"settings":
+			{
+				"buffer_size": 767,
+				"line_ending": "Windows",
+				"name": "<%= name %>"
+			}
+		},
+		{
+			"file": "rendered/model.js",
+			"settings":
+			{
+				"buffer_size": 716,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 899,
+				"line_ending": "Windows",
+				"name": "var _ = require('lodash');"
+			}
+		},
+		{
+			"contents": "{\n  \"name\": \"menu\",\n  \"schemaElements\": [{\n    \"name\": \"name\",\n    \"properties\": {\n      \"type\": \"String\",\n      \"trim\": \"true\",\n      \"unique\": \"'Menu already exists'\",\n      \"required\": \"'Name cannot be blank'\"\n    }\n  }, {\n    \"name\": \"isPublic\",\n    \"properties\": {\n      \"type\": \"Boolean\",\n      \"default\": \"true\"\n    }\n  }, {\n    \"name\": \"order\",\n    \"properties\": {\n      \"type\": \"Number\",\n      \"default\": \"0\"\n    }\n  }, {\n    \"name\": \"position\",\n    \"properties\": {\n      \"type\": \"String\",\n      \"enum\": \"['left', 'right']\",\n      \"default\": \"'left'\"\n    }\n  }, {\n    \"name\": \"nav\",\n    \"properties\": {\n      \"type\": \"String\",\n      \"enum\": \"['top','bottom','left','right']\",\n      \"default\": \"'top'\"\n    }\n  }],\n  \"instructions\":{\n  	\"create\":{},\n  	\"read\":{},\n  	\"update\":{},\n  	\"delete\":{},\n  	\"list\":{},\n  	\"grouplist\":{},\n  	\"filter\":{}\n  }\n}",
+			"file": "data/data.json",
+			"file_size": 596,
+			"file_write_time": 130815949383093761,
+			"settings":
+			{
+				"buffer_size": 856,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/hans.scheuren/WorkDocs/Travail/Wooh/woohlitycs/wooh-analytics/data/2013.csv",
+			"settings":
+			{
+				"buffer_size": 3384009,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 334.0,
+		"last_filter": "colorsublime: I",
+		"selected_items":
+		[
+			[
+				"colorsublime: I",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: li",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/hans.scheuren/Documents/GitHub/lodash-templater",
+		"/C/Users/hans.scheuren/Documents/GitHub/lodash-templater/data",
+		"/C/Users/hans.scheuren/Documents/GitHub/lodash-templater/rendered",
+		"/C/Users/hans.scheuren/Documents/GitHub/lodash-templater/template"
+	],
+	"file_history":
+	[
+		"/C/Users/hans.scheuren/Documents/GitHub/lodash-templater/template/modelbackup.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/lodash-templater/data/data.json",
+		"/C/Users/hans.scheuren/Documents/GitHub/lodash-templater/rendered/model.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/lodash-templater/Gulpfile.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/views/layout.server.view.jade",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/modules/core/core.server.routes.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/gulp/tasks/common/watch.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/gulp/tasks/default.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/gulp/tasks/common/serve.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/src/components/user/authentication/signin/signin.client.view.jade",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/src/components/user/authentication/signin/signin.client.controller.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/modules/menu/menu.server.routes.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/src/components/menu/menu.client.controller.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/src/components/menu/menu.client.view.jade",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/src/components/menu/menu.client.factory.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/modules/menu/menu.server.controller.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/views/header.server.view.jade",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/src/assets/sass/style.scss",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/gulp/tasks/common/copy.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/src/assets/svg/logo.svg",
+		"/C/Users/hans.scheuren/Downloads/logo wooh/2.svg",
+		"/C/Users/hans.scheuren/Downloads/logo wooh/1.svg",
+		"/C/Users/hans.scheuren/Downloads/logo wooh/svg3.svg",
+		"/C/Users/hans.scheuren/AppData/Local/Temp/Temp1_plunk-tmQdL0d3NQXLIDevoN7u (1).zip/index.html",
+		"/C/Users/hans.scheuren/AppData/Local/Temp/Temp1_Logo_Wooh_avec_table__2015_Pdf.zip/Logo_Wooh_avec_table__2015_Pdf/index.html",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/src/components/user/authentication/authentication.client.module.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/sfp-concept-car.github.io/CNAME",
+		"/C/Users/hans.scheuren/Documents/GitHub/enterprise-lackey/CNAME",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/src/components/menu/menu.client.module.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/gulp/tasks/common/inject.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/src/index.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/modules/menu/menu.server.model.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/modules/users/users.server.routes.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/modules/users/users.server.controller.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/modules/users/authorization/users.authorization.server.controller.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/src/components/menu/menu.client.route.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/modules/users/authentication/users.authentication.server.controller.js",
+		"/X/logistics/extractreporting/output/visits.CSV",
+		"/C/Users/hans.scheuren/Documents/GitHub/sfp-concept-car/mainslider.html",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/src/components/user/authentication/signup/signup.client.view.jade",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/src/components/user/authentication/authentication.client.route.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/src/components/user/authentication/authentication.client.factory.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/src/components/user/authentication/signup/signup.client.controller.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/src/components/user/user.module.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/build/static/assets/js/app-2d007c8d47.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/src/components/user/authentication/authentication.client.routes.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/build/views/index.server.view.jade",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/src/components/user/authentication/signin.client.view.jade",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/views/index.server.view.jade",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/build/static/assets/js/app-723d2e021a.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/build/views/layout.server.view.jade",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/build/static/assets/js/app-64d1643f19.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/build/static/assets/js/app-e6b80b30b0.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/build/static/assets/js/app-1efac30da9.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/build/views/500.server.view.jade",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/src/test.scss",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/gulp/tasks/common/sass.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/config/default.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/.gitignore",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/build/static/assets/js/app.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/gulp/tasks/common/bower.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/dist/layout.server.view.jade",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/gulp/tasks/common/delete.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/build/views/development/gfqdgfdqdfg",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/build/static/dsfsfd",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/config/development.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/build/views/development/sqdfqsdfqdsfdsqf",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/build/static/development/qdfsqfdsqsfdqdsf",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/gulp/tasks/dev/delete.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/build/static/development/dsffdsfdfdsfdsfd",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/build/fdsfdsdfsfdsfdsfsdfdsfds",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/build/dsfqfqdsqdfs",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/views/generated/css.html",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/views/generated/js.html",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/express/locals.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/express/view-engine.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/express/compression.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/express/static.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/express/routes.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/bin/www",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/express/environement-middleware.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/Gulpfile.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/gulp/tasks/deploy/deploy.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/gulp/tasks/dist/build.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/gulp/tasks/dev/build.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/gulp/tasks/common/jade.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/gulp/tasks/common/jslint.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/gulp/tasks/dev/copy.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/public/test/fdqgqfdg",
+		"/C/Users/hans.scheuren/WorkDocs/Travail/Wooh/woohlitycs/wooh-analytics/export/agent-MICL.csv",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/gulp/config.json",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/server.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/modules/users/user.server.model.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/package.json",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/config/local.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/bricks-stack/.gitignore",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/modules/error-handling/error-handling.server.controller.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/modules/users/profile/users.profile.server.controller.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/modules/users/password/users.password.server.controller.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/passport/passport.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/modules/users/auhtentication/users.authentication.server.controller.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/passport/strategies/local.passport.strategy.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/mongoose/mongoose.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/express/helmet.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/express/express.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/mongoose/models.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/express/passport.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/express/express-mongoDB-session.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/views/500.server.view.jade",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/express/cookie-parser.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/express/body-parser.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/express/method-override.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/express/environement-middleware",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/express/logger.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/express/engine.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/express/error-handling.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/express/server-rendering.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/modules/core/core.server.route.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/modules/core/core.server.controller.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/lib/globber.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/app/views/404.server.view.jade",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/public/index.html",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/config/locals.example.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/config/locals.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEAN-ERP/readme.md",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEANERP/utilities/globber.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEANERP/app/models/user.server.model.js",
+		"/C/Users/hans.scheuren/Documents/GitHub/MEANERP/middleware/express.js"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"]\n",
+			"class=\"wooh-grey\"",
+			"fill:",
+			"fill: #97bf0d;",
+			"class=\"wooh-green\"",
+			"fill=\"#010202\"",
+			"flex flex",
+			"center",
+			"menuContainer",
+			"};",
+			"log",
+			"	}",
+			"167",
+			"stream",
+			"BUCODIS",
+			"~",
+			"iprop",
+			"theme",
+			"baseDir",
+			"VIENOTĪBA",
+			"European Conserv",
+			"\"politicalGroup\": \"European Conserv",
+			"jQuery",
+			"fa fa-search",
+			"logo.png",
+			"logo.pnj",
+			"logo.pnh",
+			"HTVA",
+			"product-media-carousel-2"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"fill=\"#757575\"",
+			"fill=",
+			"fill:\"#97bf0d\"",
+			"fill: #97bf0d;",
+			"class=\"wooh-grey\"",
+			"",
+			"flex",
+			"center flex",
+			"menuElement",
+			"property"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "template/model.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								767,
+								767
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "<%= name %>",
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Flatland Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "rendered/model.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 716,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								716,
+								716
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Flatland Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								899,
+								899
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "var _ = require('lodash');",
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Flatland Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "data/data.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 856,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								754,
+								754
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Flatland Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/hans.scheuren/WorkDocs/Travail/Wooh/woohlitycs/wooh-analytics/data/2013.csv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3384009,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Flatland Monokai.tmTheme",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 94.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lodashtemplater.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

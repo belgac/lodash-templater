@@ -1,0 +1,10 @@
+{
+    "name": "menu",
+    "schemaElements":[
+        {"name":"name","properties":{"type":"String","trim":"true","unique": "'Menu already exists'","required": "'Name cannot be blank'","imcrazey":"really"}},
+        {"name":"isPublic","properties":{"type":"Boolean","default":"true"}},
+        {"name":"order","properties":{"type": "Number","default":"0"}},
+        {"name":"position","properties":{"type":"String","enum": "['left', 'right']","default":"'left'"}},
+        {"name":"nav","properties":{"type":"String","enum":"['top','bottom','left','right']","default":"'top'"}}
+        ]
+}
